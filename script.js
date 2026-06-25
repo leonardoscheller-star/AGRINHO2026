@@ -13,9 +13,3 @@ function mudarTamanho(mudanca) {
     // Aplica o novo tamanho no site inteiro
     document.body.style.fontSize = tamanhoAtual + "px";
 }
-
-// Função que faz o texto voltar ao normal
-function resetarTamanho() {
-    tamanhoAtual = 16; // Volta para o 16
-    document.body.style.fontSize = tamanhoAtual + "px"; // Aplica
-}
