@@ -1,34 +1,26 @@
-/* Configuração geral do site */
+
 body {
-    background-color: #f4f9f4; /* Fundo verde bem clarinho */
-    color: #333333; /* Cor do texto cinza escuro */
-    font-family: 'Roboto', sans-serif; /* FONTE 1: Usada nos textos comuns */
-    font-size: 16px; /* Tamanho inicial da letra */
+    background-color: #f4f9f4; 
+    color: #333333; 
+    font-family: 'Roboto', sans-serif; 
+    font-size: 16px; 
     margin: 0;
     padding: 20px;
 }
-
-/* Configuração da caixa do cabeçalho */
 header {
-    background-color: #004204; /* Fundo verde escuro */
-    color: white; /* Texto branco */
+    background-color: #004204; 
+    color: white; 
     padding: 30px;
-    text-align: center; /* Centraliza o texto */
-    border-radius: 10px; /* Deixa as bordas arredondadas */
+    text-align: center; 
+    border-radius: 10px; 
 }
-
-/* Configuração dos títulos (Títulos usam a segunda fonte) */
 h1, h2 {
-    font-family: 'Montserrat', sans-serif; /* FONTE 2: Usada apenas para títulos */
+    font-family: 'Montserrat', sans-serif; 
 }
-
-/* Configuração da área dos botões */
 .botoes-tamanho {
     margin-top: 15px;
-    text-align: right; /* Joga os botões para a direita */
+    text-align: right; 
 }
-
-/* Configuração visual dos botões */
 button {
     background-color: #4caf50;
     color: white;
@@ -38,7 +30,6 @@ button {
     border-radius: 5px;
     margin-left: 5px;
 }
-/* Configuração dos textos */
-p {
+{
     line-height: 1.6; /* Aumenta o espaço entre as linhas para facilitar a leitura */
 }
