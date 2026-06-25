@@ -1,12 +1,51 @@
-p{
-    color: aliceblue;
-}
+/* Configuração geral do site */
 body {
-    background-color: #1D4221;
+    background-color: #f4f9f4; /* Fundo verde bem clarinho */
+    color: #333333; /* Cor do texto cinza escuro */
+    font-family: 'Roboto', sans-serif; /* FONTE 1: Usada nos textos comuns */
+    font-size: 16px; /* Tamanho inicial da letra */
+    margin: 0;
+    padding: 20px;
 }
-header{
-    color: aliceblue;
+
+/* Configuração da caixa do cabeçalho */
+header {
+    background-color: #2e7d32; /* Fundo verde escuro */
+    color: white; /* Texto branco */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
 }
-h1{
-    color: aliceblue;
+
+/* Configuração dos títulos (Títulos usam a segunda fonte) */
+h1, h2 {
+    font-family: 'Montserrat', sans-serif; /* FONTE 2: Usada apenas para títulos */
+}
+
+/* Configuração da área dos botões */
+.botoes-tamanho {
+    margin-top: 15px;
+    text-align: right; /* Joga os botões para a direita */
+}
+
+/* Configuração visual dos botões */
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer; /* Muda o mouse para uma "mãozinha" */
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+/* Cor do botão quando passamos o mouse por cima */
+button:hover {
+    background-color: #388e3c;
+}
+
+/* Configuração dos textos */
+p {
+    line-height: 1.6; /* Aumenta o espaço entre as linhas para facilitar a leitura */
 }
