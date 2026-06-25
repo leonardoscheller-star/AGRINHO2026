@@ -39,12 +39,6 @@ button {
     border-radius: 5px;
     margin-left: 5px;
 }
-
-/* Cor do botão quando passamos o mouse por cima */
-button:hover {
-    background-color: #388e3c;
-}
-
 /* Configuração dos textos */
 p {
     line-height: 1.6; /* Aumenta o espaço entre as linhas para facilitar a leitura */
