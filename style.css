@@ -15,12 +15,15 @@ header {
     border-radius: 10px; 
 }
 h1, h2 {
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif; /* FONTE 2: Usada apenas para títulos */
 }
+
 .botoes-tamanho {
     margin-top: 15px;
-    text-align: right; 
+    text-align: right; /* Joga os botões para a direita */
 }
+
+/* Configuração visual dos botões */
 button {
     background-color: #4caf50;
     color: white;
@@ -30,6 +33,33 @@ button {
     border-radius: 5px;
     margin-left: 5px;
 }
-{
+/* Configuração dos textos */
+p {
     line-height: 1.6; /* Aumenta o espaço entre as linhas para facilitar a leitura */
+}
+
+.boas-vindas {
+    background-color: #e8f5e9; /* Verde bem claro para destacar */
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Dá uma leve sombra */
+}
+
+/* Configuração da caixa onde a pessoa digita (input) */
+.boas-vindas input {
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    outline: none;
+}
+
+/* Configuração da mensagem que vai aparecer depois */
+#mensagem-saudacao {
+    color: #2e7d32; /* Texto verde escuro */
+    margin: 0;
 }
