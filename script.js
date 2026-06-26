@@ -9,20 +9,26 @@ function mudarTamanho(mudanca) {
     document.body.style.fontSize = tamanhoAtual + "px";
 }
 
-function salvarNome() {
-    // 1. O Javascript vai lá no HTML e pega o que está escrito dentro do <input>
-    let nomeDigitado = document.getElementById("nome-usuario").value;
-    if (nomeDigitado !== "") {
-        
-        // 3. Esconde a caixinha de pergunta (Display "none" significa sumir)
-        document.getElementById("area-pergunta").style.display = "none";
-        
-        // 4. Pega a nossa tag <h2> vazia e escreve uma mensagem dentro dela juntando com o nome
-        let mensagem = document.getElementById("mensagem-saudacao");
-        mensagem.innerHTML = "Olá, " + nomeDigitado + "! Que bom ter você aqui aprendendo sobre o Agro.";
-        
-        // 5. Faz a mensagem aparecer na tela (Display "block" faz aparecer)
-        mensagem.style.display = "block";
+function mostrarSaudacao() {
+    // Pega o que o usuário digitou dentro do input
+    let nome = document.getElementById("campo-nome").value;
 
-    } 
+    // Confere se o usuário realmente digitou algo (se não está vazio)
+    if (nome !== "") {
+        // Esconde a caixinha de pergunta inteira
+        document.getElementById("caixa-interacao").style.display = "none";
+        
+        // Pega o nosso título invisível no HTML
+        let saudacao = document.getElementById("texto-saudacao");
+        
+        // Escreve a mensagem personalizada dentro dele
+        saudacao.innerHTML = "Olá, " + nome + "! Bem-vindo(a) ao nosso site.";
+        
+        // Faz a mensagem aparecer na tela
+        saudacao.style.display = "block";
+        
+    } else {
+        // Se a pessoa clicou no botão sem digitar nada, mostramos um alerta
+        alert("Por favor, não esqueça de digitar o seu nome!");
+    }
 }

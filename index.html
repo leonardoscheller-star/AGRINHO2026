@@ -13,12 +13,12 @@
         <h1>Agro forte, futuro sustentável</h1>
         <h2>Equilíbrio entre produção e meio ambiente: Como o agro se conecta com a tecnologia</h2>
     </header>
-<section class="boas-vindas">
-        <div id="area-pergunta">
-            <label for="nome-usuario">Qual é o seu nome?</label>
-            <input type="text" id="nome-usuario" placeholder="Digite seu nome aqui...">
-            <button onclick="salvarNome()">Entrar</button>
-        </div>
+<div id="caixa-interacao">
+    <input type="text" id="campo-nome" placeholder="Digite seu nome aqui...">
+    <button onclick="mostrarSaudacao()">Entrar</button>
+</div>
+
+<h2 id="texto-saudacao" style="display: none;"></h2>
     <nav class="botoes-tamanho">
         <button onclick="mudarTamanho(1)">A+ (Aumentar)</button>
         <button onclick="mudarTamanho(-1)">A- (Diminuir)</button>
@@ -35,7 +35,7 @@
 
         <section class="tecnologias">
             <h3>Principais Tecnologias no Campo</h3>
-            
+
             <div class="cartao">
                 <h4>🚁 Drones Agrícolas</h4>
                 <p>Eles sobrevoam as plantações tirando fotos de alta qualidade. Com isso, o agricultor consegue ver de cima se há alguma praga atacando a lavoura ou se alguma área está precisando de mais água, sem precisar andar por toda a fazenda.</p>
