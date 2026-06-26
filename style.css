@@ -15,13 +15,12 @@ header {
     border-radius: 10px; 
 }
 h1, h2 {
-    font-family: 'Montserrat', sans-serif; /* FONTE 2: Usada apenas para títulos */
+    font-family: 'Montserrat', sans-serif; 
 }
 .botoes-tamanho {
     margin-top: 15px;
-    text-align: right; /* Joga os botões para a direita */
+    text-align: right; 
 }
-/* Configuração visual dos botões */
 button {
     background-color: #4caf50;
     color: white;
@@ -31,18 +30,13 @@ button {
     border-radius: 5px;
     margin-left: 5px;
 }
-/* Configuração dos textos */
-p {
-    line-height: 1.6; /* Aumenta o espaço entre as linhas para facilitar a leitura */
-}
 .boas-vindas {
-    background-color: #e8f5e9; /* Verde bem claro para destacar */
+    background-color: #e8f5e9; 
     padding: 15px;
     text-align: center;
     border-radius: 8px;
     margin-top: 20px;
 }
-/* Configuração da caixa onde a pessoa digita (input) */
 .boas-vindas input {
     padding: 8px;
     font-size: 16px;
@@ -72,23 +66,4 @@ p {
     background-color: #e8f5e9;
     padding: 15px;
     border-radius: 10px;
-}
-/* Títulos das seções */
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #2e7d32; /* Verde escuro */
-    margin-top: 30px;
-    border-bottom: 2px solid #4caf50;
-    padding-bottom: 5px;
-}
-/* Estilo da lista de sustentabilidade */
-.sustentabilidade ul {
-    background-color: #e8f5e9;
-    padding: 20px 20px 20px 40px;
-    border-radius: 8px;
-}
-.sustentabilidade li {
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #2e7d32;
 }
