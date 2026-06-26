@@ -22,13 +22,10 @@ function mostrarSaudacao() {
         let saudacao = document.getElementById("texto-saudacao");
         
         // Escreve a mensagem personalizada dentro dele
-        saudacao.innerHTML = "Olá, " + nome + "! Bem-vindo(a) ao nosso site.";
+        saudacao.innerHTML = "Olá, " + nome + "! Bem-vindo(a) ao meu site.";
         
         // Faz a mensagem aparecer na tela
         saudacao.style.display = "block";
         
-    } else {
-        // Se a pessoa clicou no botão sem digitar nada, mostramos um alerta
-        alert("Por favor, não esqueça de digitar o seu nome!");
     }
 }
