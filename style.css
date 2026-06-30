@@ -20,6 +20,7 @@ h1, h2 {
 .botoes-tamanho {
     margin-top: 15px;
     text-align: right; 
+    padding: 15px;
 }
 button {
     background-color: #4caf50;
